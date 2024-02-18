@@ -1,6 +1,9 @@
 a {
   text-decoration: none;
 }
+.icons {
+  fill: black;
+}
 
 .header {
   // width: 100%;
@@ -130,11 +133,11 @@ a {
   justify-content: space-between;
 }
 
-.butoon-h-menu {
+/* .butoon-h-menu {
   background-color: transparent;
   border: none;
   cursor: pointer;
-}
+} */
 
 // .butoon-h-menu-x {
 //   background-color: transparent;
