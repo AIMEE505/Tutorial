@@ -116,7 +116,15 @@ display: flex;
     margin-bottom: 16px;
 
 }
-
+.butoon-h-menu-x {
+    margin-left: auto;
+    background: none;
+    border: black;
+    cursor: pointer;
+    display: block;
+    align-items: center;
+    padding-top: 24px;
+}
 
 .list{
     list-style: none;
@@ -1094,6 +1102,17 @@ cursor: pointer;
 
 
   @media screen and (width >= 768px) {
+.butoon-h-menu {
+    display: none;
+}
+
+.butoon-h-menu-x {
+    display: none;
+}
+
+.header-container {
+    display: flex;
+}
     .header{
       display: contents;
     }
@@ -1107,7 +1126,7 @@ cursor: pointer;
 .logo{
   display: flex;
 }
-.logo-header{
+.logo-name{
   display: none;
 }
     .list-forte-points {
@@ -1167,7 +1186,7 @@ column-gap: 24px;
 .sii-title{
   text-align: left;
 }
-.hero-navbar-menu-button {
+.button-h-menu {
   display: none;
 }
 
