@@ -786,7 +786,7 @@ font-family: "Roboto", sans-serif;
     overflow: hidden;
 
     height: 300px;
-    margin: 0 auto;
+    margin: 124px auto;
    
   }
   
@@ -1070,6 +1070,17 @@ cursor: pointer;
 }
 
   @media screen and (width < 768px) {
+    .header-shopping-cart {
+        display: none;
+    }
+.nav-list {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+}
+
     .meniu-list {
       display: flex;
       flex-direction: column;
@@ -1102,6 +1113,9 @@ cursor: pointer;
 
 
   @media screen and (width >= 768px) {
+    .li-h-menu {
+        display: none;
+    }
 .butoon-h-menu {
     display: none;
 }
