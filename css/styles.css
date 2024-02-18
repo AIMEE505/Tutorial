@@ -148,22 +148,27 @@ a {
   align-items: center;
   padding-top: 24px;
 }
-// .butoon-h-menu-x {
+/* // .butoon-h-menu-x {
 //   background-color: transparent;
 //   border: none;
 //   cursor: pointer;
 //   color: #ae1332;
 //   width: 24px;
-// }
+// } */
 
 .butoon-h-menu-x {
   margin-left: auto;
   background: none;
-  border: black;
+  border: #ae1332;
   cursor: pointer;
   display: block;
   align-items: center;
   padding-top: 24px;
+  text-transform: uppercase;
+}
+
+.butoon-x-container {
+  display: flex;
 }
 
 .icons {
@@ -204,6 +209,8 @@ a {
 
   .header-container {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 }
 
