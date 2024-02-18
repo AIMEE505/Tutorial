@@ -6,7 +6,7 @@ a {
 }
 
 .header {
-  // width: 100%;
+  /* // width: 100%; */
   background-color: white;
   padding: 16px;
 }
@@ -138,7 +138,16 @@ a {
   border: none;
   cursor: pointer;
 } */
+.butoon-h-menu {
 
+  margin-left: auto;
+  background: none;
+
+  cursor: pointer;
+  display: block;
+  align-items: center;
+  padding-top: 24px;
+}
 // .butoon-h-menu-x {
 //   background-color: transparent;
 //   border: none;
@@ -199,6 +208,9 @@ a {
 }
 
 @media screen and (width < 768px) {
+  .header{
+    display: flex;
+  }
 
   .nav-list {
     display: flex;
