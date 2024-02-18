@@ -20,9 +20,6 @@ a {
   position: relative;
   overflow: hidden;
 
-  // height: 300px;
-  // margin: 124px auto;
- 
 }
 
 .box:hover .overlay {
@@ -169,6 +166,10 @@ a {
 }
 
 @media screen and (width >= 768px) {
+.header-navbar-menu {
+  padding-top: 0;
+}
+
   .li-h-menu {
     display: none;
 }
@@ -197,7 +198,11 @@ a {
 }
 
 @media screen and (width < 768px) {
-  .nav-li {
+.li-h-menu {
+  fill: white;
+}
+
+  .nav-list-item {
     color: white;
   }
   .header{
@@ -205,6 +210,7 @@ a {
   }
 
   .nav-list {
+    padding-top: 126px;
     display: flex;
     flex-direction: column;
     justify-content: center;
