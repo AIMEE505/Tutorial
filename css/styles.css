@@ -27,7 +27,7 @@ display: flex;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
-.container-nav{
+.header-container{
     display: block;
     justify-content: space-between;
     max-width: 1158px;
@@ -168,7 +168,7 @@ display: flex;
 
 }
 
-.hero-navbar-menu-button {
+.butoon-h-menu-x{
   margin-left: auto;
   background: none;
   border: black;
@@ -1070,7 +1070,7 @@ cursor: pointer;
     }
   
   
-    .container-nav {
+    .header-container{
       visibility: hidden;
       position: fixed;
       right: 0;
